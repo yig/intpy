@@ -63,8 +63,7 @@ if __name__ == "__main__":
         long_description="\n".join(_package_description[2:-1]),
         author="Rafael Menezes Barreto",
         author_email="rmb3@cin.ufpe.br, rafaelbarreto87@gmail.com",
-        url="http://rafaelbarreto.wordpress.com/intpy/, " + \
-            "http://code.google.com/p/intpy/",
+        url="http://code.google.com/p/intpy/",
         license="GPL",
         platforms=[
             "Windows",
