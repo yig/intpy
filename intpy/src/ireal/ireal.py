@@ -468,7 +468,7 @@ class IReal(object):
         False
         >>> IReal(2, 3) < IReal(3.1)
         True
-        >>> IReal("undefined") < IReal(3.1) # doctest: +ELLIPSIS
+        >>> IReal("undefined") < IReal(3.1)
         False
         >>> IReal(3) < IReal() # doctest: +ELLIPSIS
         Traceback (most recent call last):
@@ -492,7 +492,7 @@ class IReal(object):
         True
         >>> IReal(3) <= IReal(3)
         True
-        >>> IReal("undefined") <= IReal(3.1) # doctest: +ELLIPSIS
+        >>> IReal("undefined") <= IReal(3.1)
         False
         >>> IReal(3) <= IReal() # doctest: +ELLIPSIS
         Traceback (most recent call last):
